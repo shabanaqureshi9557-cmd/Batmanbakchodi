@@ -37,4 +37,5 @@ jobs:
         with:
           name: BatmanBakchodi-APK
           path: bin/*.apk
+          android.accept_sdk_license = True
           if-no-files-found: error
